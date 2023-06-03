@@ -26,7 +26,7 @@ app.use((req, res, next) => {
 
 //mongo db connection
 MongoClient.connect(
-  "mongodb+srv://jallawia:79hXJBzW2q0EQwDA@cluster0.hwy5gow.mongodb.net",
+  "mongodb+srv://jallawi:79hXJBzW2q0EQwDA@cluster0.hwy5gow.mongodb.net",
   (error, client) => {
     db = client.db(collection);
   }
