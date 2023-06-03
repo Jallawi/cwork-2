@@ -4,7 +4,7 @@ const app = express();
 const MongoClient = require("mongodb").MongoClient;
 const http = require("http");
 const port = process.env.PORT || 3000;
-const collection = "Webstore1";
+const collection = "Webstore";
 
 var path = require("path");
 var fs = require("fs");
@@ -26,7 +26,7 @@ app.use((req, res, next) => {
 
 //mongo db connection
 MongoClient.connect(
-  "mongodb+srv://tobiekenediri2004:Ekenedirichukwu@cluster0.z0tgb4w.mongodb.net/",
+  "'mongodb+srv://jallawia:79hXJBzW2q0EQwDA@cluster0.hwy5gow.mongodb.net",
   (error, client) => {
     db = client.db(collection);
   }
