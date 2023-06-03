@@ -1,4 +1,4 @@
-let mySub =[
+let mySub = [
 
     {
         "id": 1001,
